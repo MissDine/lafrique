@@ -62,7 +62,7 @@ export default function NavBarr() {
         className="p-1 font-normal"
       >
         <a href="#joinclass" className="flex items-center">
-          <button style={{color:"#00B1EC", border:"solid 1px #FD8D1A"}}>Join Class</button>
+          <button style={{color:"#00B1EC", border:"solid 1px #FD8D1A",borderRadius:"0.2rem"}}>Join Class</button>
         </a>
       </Typography>
       <Typography
@@ -71,8 +71,8 @@ export default function NavBarr() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          <button style={{backgroundColor:"#FD8D1A", color:"white"}}>Demo class</button>
+        <a href="#bookclass" className="flex items-center">
+          <button style={{backgroundColor:"#FD8D1A", color:"white", borderRadius:"0.2rem"}}>Demo class</button>
         </a>
       </Typography>
       <Typography
