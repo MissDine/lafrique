@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../components/images/logo (1).png"
 import user from "../components/images/mdi_user.png"
+import { Outlet, Link } from "react-router-dom";
 import {
   Navbar,
   MobileNav,
@@ -29,9 +30,7 @@ export default function NavBarr() {
         className="p-1 font-normal"
         style={{color:"#00B1EC"}}
       >
-        <a href="#about" >
-          About
-        </a>
+        <Link to="/about">About</Link>
       </Typography>
       <Typography
         as="li"
@@ -40,9 +39,7 @@ export default function NavBarr() {
         className="p-1 font-normal"
         style={{color:"#00B1EC"}}
       >
-        <a href="#home" >
-          Home
-        </a>
+        <Link to="/">Home</Link>
       </Typography>
       <Typography
         as="li"
@@ -51,9 +48,7 @@ export default function NavBarr() {
         className="p-1 font-normal"
         style={{color:"#00B1EC"}}
       >
-        <a href="#courses" className="flex items-center">
-          Courses
-        </a>
+        <Link to="/courses">Courses</Link>
       </Typography>
       <Typography
         as="li"
@@ -61,9 +56,9 @@ export default function NavBarr() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#joinclass" className="flex items-center">
-          <button style={{color:"#00B1EC", border:"solid 1px #FD8D1A",borderRadius:"0.2rem"}}>Join Class</button>
-        </a>
+        <Link to="/joinclass">
+        <button style={{color:"#00B1EC", border:"solid 1px #FD8D1A",borderRadius:"0.2rem"}}>Join Class</button>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -71,9 +66,10 @@ export default function NavBarr() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#bookclass" className="flex items-center">
-          <button style={{backgroundColor:"#FD8D1A", color:"white", borderRadius:"0.2rem"}}>Demo class</button>
-        </a>
+        <Link to="/bookclassm">
+        <button style={{backgroundColor:"#FD8D1A", color:"white", borderRadius:"0.2rem"}}>Demo class</button>
+        </Link>
+        
       </Typography>
       <Typography
         as="li"
@@ -82,15 +78,16 @@ export default function NavBarr() {
         className="p-1 font-normal"
         style={{color:"#00B1EC"}}
       >
-        <a href="#login" className="flex items-center">
-          Login
-        </a>
+        <Link to="/login">Login</Link>
       </Typography>
     </ul>
   );
  
   return (
-    <div style={{height:"2vh", width:"100vw", alignSelf:"center"}}>
+   <>
+   <div style={{marginLeft:"2vw", width:"94vw"}}>
+   <div style={{height:"8vh", backgroundColor:"#FD8D1A"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+    <div style={{height:"2vh"}}>
       <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4" >
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
@@ -153,5 +150,7 @@ export default function NavBarr() {
       </Navbar>
       
     </div>
+   </div>
+   </>
   );
 }
