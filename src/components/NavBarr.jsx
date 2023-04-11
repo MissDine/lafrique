@@ -66,7 +66,7 @@ export default function NavBarr() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/bookclassm">
+        <Link to="/bookclass">
         <button style={{backgroundColor:"#FD8D1A", color:"white", borderRadius:"0.2rem"}}>Demo class</button>
         </Link>
         
@@ -86,7 +86,7 @@ export default function NavBarr() {
   return (
    <>
    <div style={{marginLeft:"2vw", width:"94vw"}}>
-   <div style={{height:"8vh", backgroundColor:"#FD8D1A"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+   <div style={{height:"8vh", backgroundColor:"#FD8D1A", textAlign:"center"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
     <div style={{height:"2vh"}}>
       <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4" >
         <div className="flex items-center justify-between text-blue-gray-900">

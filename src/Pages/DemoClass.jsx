@@ -3,8 +3,12 @@ import React from 'react'
 function DemoClass() {
   return (
     <div id='bookclass' style={{backgroundColor:"#00B1EC", height:"100vh",width:"100vw"}}>
-   <form class="w-full max-w-lg">
-  <div class="flex flex-wrap -mx-3 mb-6" style={{backgroundColor:"#CEEAF3"}}>
+   <form class="w-full max-w-lg" style={{justifyContent:"center",padding:"4rem", paddingTop:"6rem",backgroundColor:"#CEEAF3", margin:"auto", borderRadius:"0.3rem"}}>
+   <div>
+    <h1 style={{textAlign:"center"}}>Enter Details to Book Class</h1>
+      <p>Student Details</p>
+    </div>
+  <div class="flex flex-wrap -mx-10 mb-2" style={{}}>
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
         First Name

@@ -6,7 +6,7 @@ import NavBarr from "./components/NavBarr";
 function App() {
   return (
     <div className="App">
-      {/* <NavBarr /> */}
+      <NavBarr />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="bookclass" element={<DemoClass />} />
