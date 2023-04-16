@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import DemoClass from "./Pages/DemoClass";
 import HomePage from "./Pages/HomePage";
 import NavBarr from "./components/NavBarr";
+import About from "./Pages/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="bookclass" element={<DemoClass />} />
+        <Route path="about" element={<About/>} />
       </Routes>
       {/* <HomePage/> */}
       {/* <DemoClass/> */}
