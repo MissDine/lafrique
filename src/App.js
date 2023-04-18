@@ -8,15 +8,15 @@ import BookClass from "./Pages/BookClass";
 function App() {
   return (
     <div className="App">
-      {/* <NavBarr /> */}
-      {/* <Routes>
+      <NavBarr />
+      <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="bookclass" element={<DemoClass />} />
         <Route path="about" element={<About/>} />
-      </Routes> */}
+      </Routes>
       {/* <HomePage/> */}
       {/* <DemoClass/> */}
-      <BookClass />
+      {/* <BookClass /> */}
     </div>
   );
 }
