@@ -3,6 +3,7 @@ import DemoClass from "./Pages/DemoClass";
 import HomePage from "./Pages/HomePage";
 import NavBarr from "./components/NavBarr";
 import About from "./Pages/About";
+import BookClass from "./Pages/BookClass";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </Routes>
       {/* <HomePage/> */}
       {/* <DemoClass/> */}
+      {/* <BookClass /> */}
     </div>
   );
 }
